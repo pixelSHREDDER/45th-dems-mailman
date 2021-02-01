@@ -1,0 +1,11 @@
+We have received a request%(remote)s for the removal of your email address "%(email)s" from the %(listname)s@45thdemocrats.org mailing list. To confirm that you want to be removed from this list, click the link below:
+
+    %(confirmurl)s
+
+If you do not wish to be removed from this list, please simply disregard this message.  If you think you are being maliciously removed from the list, or have any other questions, please contact the Tech Committee at technology@45thdemocrats.org.
+
+______________________________________________________________________________________________
+You received this message because you are subscribed to the %(listname)s@45thdemocrats.org mailing list.
+
+Need help? You can always message the Tech Committee here:
+    technology@45thdemocrats.org

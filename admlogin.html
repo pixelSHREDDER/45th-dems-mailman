@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- $Revision: 1 $ -->
+<html>
+    <head>
+        <title>%(listname)s@45thdemocrats.org %(who)s Login</title>
+        <style>
+            a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            html, body {
+                height: 100%;
+            }
+            body {
+                background: #eaeaea;
+                font-family: Arial, sans-serif;
+                font-size: 1.0rem;
+                color: #000;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                color: #444;
+                font-weight: 600;
+                -ms-word-wrap: break-word;
+                word-wrap: break-word;
+            }
+            h1 {
+                margin-bottom: 30px;
+                font-size: 2.62em;
+                font-weight: 400;
+                line-height: 1.5em;
+            }
+            h2,
+            h3 {
+                margin-bottom: 14px;
+                font-weight: 400;
+                line-height: 1.3em;
+            }
+            h2 {
+                font-size: 2.125em;
+            }
+            h3 {
+                font-size: 1.75em;
+            }
+            h4 {
+                margin-bottom: 10px;
+            }
+            p, ol, ul {
+                line-height: 1.6em;
+            }
+            p {
+                margin-bottom: 1em;
+            }
+            strong {
+                font-weight: bold;
+            }
+            em {
+                font-style: italic;
+            }
+            a {
+                color: #3b8dbd;
+                word-break: break-all;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            a img {
+                border: none;
+            }
+            hr {
+                color: #ccc;
+                margin: 10px 0 20px;
+            }
+            form center {
+                text-align: left;
+            }
+            ol, ul {
+                margin: 0 0 15px 30px;
+            }
+            code {
+                font-family: 'Lucida Console', monospace;
+            }
+            input {
+                border-radius: 0;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                -moz-transition: all .2s ease;
+                -webkit-transition: all .2s ease;
+                transition: all .2s ease;
+            }
+            button,
+            input,
+            label,
+            select,
+            textarea {
+                font-family: inherit;
+                font-size: .875em;
+            }
+            input[type="Submit"] {
+                font-size: 1em;
+                width: auto;
+                margin: 0 16px 16px 0;
+                background-color: #3b8dbd;
+                color: #fff;
+                padding: 10px;
+                font-weight: 600;
+                display: inline-block;
+                border: none;
+                cursor: pointer;
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+            }
+            label,
+            form center {
+                color: #444;
+                font-weight: 700;
+                font-size: inherit;
+                line-height: 1.3;
+                clear: both;
+                text-transform: capitalize;
+            }
+            .form-no-blurb form {
+                font-size: 0;
+            }
+            .form-no-blurb form > * {
+                display: none;
+            }
+            .form-no-blurb form center {
+                display: block;
+                font-size: 1.0rem;
+            }
+            .checkbox-wrapper,
+            .radio-wrapper {
+                line-height: 1.3;
+                overflow: hidden;
+                padding: 0 !important;
+                margin-bottom: 16px;
+            }
+            .checkbox-wrapper label,
+            .radio-wrapper label {
+                display: -moz-inline-stack;
+                display: inline-block;
+                padding: 0;
+                width: auto;
+                line-height: 1.5;
+                font-size: .875em;
+                vertical-align: middle;
+                max-width: 85%;
+                white-space: normal;
+                letter-spacing: inherit;
+                cursor: pointer;
+            }
+            .checkbox-wrapper label {
+                margin: 0;
+            }
+            .radio-wrapper label {
+                margin: 2px 0 0 4px;
+            }
+            input[type="checkbox"],
+            input[type="radio"] {
+                display: -moz-inline-stack;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 1px;
+            }
+            input[type="checkbox"] {
+                -moz-appearance: checkbox;
+                -webkit-appearance: checkbox;
+            }
+            input[type="radio"] {
+                -moz-appearance: radio;
+                -webkit-appearance: radio;
+            }
+            input[type="search"],
+            input[type="number"],
+            input[type="text"],
+            input[type="password"],
+            input[type="email"],
+            input[type="url"],
+            input[type="tel"],
+            select,
+            textarea {
+                background: #fff;
+                border: 2px solid #ddd;
+                color: #777;
+                display: block;
+                max-width: 100%;
+                padding: 7px 8px;
+                margin-bottom: 16px;
+            }
+            input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]) {
+                font-size: inherit;
+                font-family: inherit;
+                padding: 5px 4px;
+                letter-spacing: normal;
+            }
+            input[name="SubscriberRoster"] {
+                margin-left: -.6em;
+            }
+            .error {
+                color: #790000;
+                font-size: 1em;
+                font-weight: 700;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            .settings-table tr {
+                border-bottom: 2px solid #ccc;
+            }
+            .settings-table tr:first-child {
+                border-top: 2px solid #ccc;
+            }
+            .settings-table td {
+                padding-top: 1em;
+            }
+            .settings-table td:first-child {
+                padding-right: 1em;
+            }
+            .settings-table td:last-child {
+                min-width: 100px;
+                text-align: right;
+                border-left: 2px solid #ccc;
+            }
+            .settings-table tr:last-child,
+            .settings-table tr:last-child td:last-child {
+                border: none;
+                text-align: center;
+                padding-right: 0;
+            }
+            .screen-reader-text {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0,0,0,0);
+                border: 0;
+            }
+            .screen-reader-text.skip-link {
+                background-color: #f1f1f1;
+                box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+                color: #21759b;
+                font-weight: 700;
+                height: auto;
+                width: auto;
+                left: 5px;
+                line-height: normal;
+                padding: 15px 23px 14px;
+                text-decoration: none;
+                top: 5px;
+            }
+            #wrapper,
+            .container-inner {
+                min-width: 320px;
+            }
+            #wrapper {
+                height: 100%;
+            }
+            #page {
+                margin: 0px auto;
+                padding: 20px;
+                background: #fff;
+            }
+            header,
+            header .container-inner {
+                position: relative;
+            }
+            header {
+                background-color: #33363b;
+            }
+            .container {
+                padding: 0 20px;
+            }
+            .container-inner {
+                max-width: 1380px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            header .group {
+                padding: 30px 30px 20px;
+            }
+            .site-title {
+                font-size: 2.625em;
+                font-weight: 600;
+                letter-spacing: -.5px;
+                float: left;
+                line-height: 1.4285em;
+                padding: 10px 0;
+                margin: 0;
+            }
+            .site-title a {
+                display: block;
+                color: #fff;
+                max-width: 100%;
+            }
+            .site-title a img {
+                display: block;
+                max-width: 100%;
+                max-height: 60px;
+                height: auto;
+                padding: 0;
+                margin: 0 auto;
+                -webkit-border-radius: 0;
+                border-radius: 0;
+                width: auto;
+            }
+            .friendly-email {
+                text-transform: lowercase;
+            }
+            h1 .friendly-email {
+                font-size: 1.4rem;
+                display: block;
+                line-height: 1.4rem;
+                font-style: italic;
+                margin-top: 10px;
+            }
+            address {
+                font-size: 0;
+            }
+            address > * {
+                display: none;
+            }
+            address p {
+                display: block;
+            }
+            address table {
+                text-align: center;
+            }
+            address td {
+                font-size: 12px;
+                line-height: 1.6;
+            }
+            address img {
+                width: 100%;
+            }
+
+            @media only screen and (min-width: 720px) {
+                a {
+                    word-break: break-word;
+                }  
+                header {
+                    height: 230px;
+                }
+                .site-title a img {
+                    max-height: 150px;
+                }
+                #page {
+                    width: 700px;
+                }
+                address img {
+                    width: auto;
+                }
+                .settings-table tr td:last-child {
+                    width: 33%;
+                }
+            }
+            @media only screen and (min-width: 480px) and (max-width: 1200px) {
+                .container {
+                    padding: 0 10px;
+                }
+            }
+
+            @media only screen and (max-width: 719px) {
+                .container {
+                    padding: 0;
+                }
+                header .group {
+                    padding: 0 20px;
+                }
+                .logo-tagline-group {
+                    display: block;
+                }
+                .site-title {
+                    padding: 30px 0;
+                    width: 100%;
+                    float: none;
+                    line-height: 1.19em;
+                    font-size: 2.2em;
+                }
+                .site-title a {
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <a class="screen-reader-text skip-link" href="#page">Skip to content</a>
+            <header>
+                <div class="container">
+                    <div class="container-inner">
+                        <div class="group">
+                            <p class="site-title">
+                                <a href="https://www.45thdemocrats.org/" rel="home" title="45th District Democrats | Home page">
+                                    <img src="https://www.45thdemocrats.org/wp-content/uploads/2017/05/45th-Logo-Horizontal-Reverse-web-1.png" alt="45th District Democrats">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="page">
+                <form method=post action="%(path)s" name="f">
+                    <h1>%(who)s Login for: <span class="friendly-email">%(listname)s@45thdemocrats.org</span></h1>
+                    <label>%(who)s Password:</label>
+                    <input type="password" name="adminpw" size="30" />
+                    <input type="submit" name="admlogin" value="Login" />
+                    <p class="error">%(message)s</p>
+                    <p><strong>Important:</strong> From this point on, you must have cookies enabled in your browser, otherwise no administrative changes will take effect.</p>
+                </form>
+    </body>
+</html>

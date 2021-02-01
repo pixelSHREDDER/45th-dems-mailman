@@ -1,0 +1,10 @@
+Greetings!
+
+Your message "%(subject)s" was successfully received by the %(listname)s@45thdemocrats.org mailing list.
+
+______________________________________________________________________________________________
+This message brought to you by the 45th District Democrats of Washington State.
+    https://www.45thdemocrats.org/
+
+Need help? You can always message our Tech Committee here:
+    technology@45thdemocrats.org

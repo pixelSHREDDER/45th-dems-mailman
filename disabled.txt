@@ -1,0 +1,15 @@
+Your subscription in the mailing list %(listname)s has been disabled %(reason)s.  You will not see any messages from this list until you re-enable your subscription.  You will receive %(noticesleft)s more reminders like this before your subscription in this list is deleted.
+
+To re-enable your subscription, click the link below:
+
+    %(confirmurl)s
+
+As a reminder, your subscription password for this list is
+
+    %(password)s
+
+______________________________________________________________________________________________
+Change your subscription options, reset or retrieve your password, or unsubscribe from this list:
+    %(options_url)s
+Need help? You can always message the Tech Committee here:
+    technology@45thdemocrats.org

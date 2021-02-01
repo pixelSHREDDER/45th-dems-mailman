@@ -1,0 +1,13 @@
+Hello %(user)s,
+
+As requested, here is your password for the %(listname)s@45thdemocrats.org mailing list.  You will need this password in order to change your subscription options, so make sure to put it somewhere safe! Once you've recorded your password we *strongly* recommend deleting this email!
+
+Your password is:
+
+    %(password)s
+
+______________________________________________________________________________________________
+Change your subscription options, reset or retrieve your password, or unsubscribe from this list:
+    %(options_url)s
+Need help? You can always message the Tech Committee here:
+    technology@45thdemocrats.org

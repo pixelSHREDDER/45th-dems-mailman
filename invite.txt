@@ -1,0 +1,20 @@
+Greetings from the 45th District Democrats of Washington State!
+
+Your email address "%(email)s" has been invited to join the %(real_name)s@45thdemocrats.org mailing list.
+
+The purpose of this list is: %(info)s
+
+To accept the invitation and subscribe to this list, click the link below:
+
+    %(confirmurl)s
+
+If you would like to decline this invitation, or if you believe this invitation was sent in error, you may simply disregard this message.
+
+If you have any questions, please contact our Tech Committee at technology@45thdemocrats.org. Thanks!
+
+______________________________________________________________________________________________
+This message brought to you by the 45th District Democrats of Washington State.
+    https://www.45thdemocrats.org/
+
+Need help? You can always message our Tech Committee here:
+    technology@45thdemocrats.org

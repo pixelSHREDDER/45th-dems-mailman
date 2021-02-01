@@ -1,0 +1,66 @@
+Greetings, and welcome to the %(real_name)s@45thdemocrats.org mailing list! %(welcome)s
+
+Below you'll find some important info about how our organization's mailing lists work, and what features you have as a subscriber. Let's get started!
+
+***ABOUT THIS LIST***
+
+To send a message to all the subscribers of this list, email %(real_name)s@45thdemocrats.org.
+
+***HOW DO OUR LISTS WORK?***
+
+For the most part, our mailing lists serve two purposes:
+    - Allow our members / the public to easily send a message to an entire group/committee/board at once, and
+    - Allow members of a group/committee/board to easily communicate amongst themselves using a single email address
+
+In some cases, though, a mailing list may be used to provide a board member with an email address with the appropriate title and branding (i.e. mytitle@45thdemocrats.org), which forwards messages to their preferred personal email address (a mailing list of one!).
+
+In addition to regular subscribers, at least one subscriber in each list is also an Admin- usually the highest ranking member(s) of the group. For example, if the list is for a committee, the committee chair will usually be an Admin. Admins have the ability to perform more advanced list management tasks, and are in charge of approving or rejecting new subscriber requests.
+
+As a failsafe measure, the Tech Committee Chair also holds Admin permissions for every list. So if you run into any trouble with a list you can always message the Tech Committee at technology@45thdemocrats.org for help.
+
+***LIST INFO PAGE***
+
+From the List Info page, you can:
+    - View general information about this list
+    - Request to add a new subscriber
+    - See all of this list’s subscribers
+    
+Only this list's subscribers and Admins are able to see the full list of subscribers- but since this is such a common question that subscribers get asked about, it's good to have handy for reference.
+
+To visit the List Info page, click the link below:
+
+    %(listinfo_url)s
+
+***SUBSCRIPTION OPTIONS PAGE***
+
+From your Subscription Options page, you can:
+    - Change your subscription options
+    - Turn off messages temporarily
+    - Change your name or email address
+    - View a list of all our other lists of which you are a subscriber
+    - Reset or retrieve your password 
+    - Unsubscribe from this list
+
+To visit your Subscription Options page for this list, click the link below:
+
+    %(optionsurl)s
+  %(umbrella)s
+
+***YOUR NEW PASSWORD***
+
+A password for your subscription has been automatically generated for you. You'll need to enter this to view the list's subscribers, or change your subscription options (including changing the password). BE SURE TO SAVE THIS PASSWORD! Preferably in a password manager, or written down somewhere safe.
+
+Your password is:
+
+  %(password)s
+
+***YOU'RE ALL SET!***
+
+If you have any questions, please contact our Tech Committee at technology@45thdemocrats.org. Have fun!
+
+______________________________________________________________________________________________
+This message brought to you by the 45th District Democrats of Washington State.
+    https://www.45thdemocrats.org/
+
+Need help? You can always message our Tech Committee here:
+    technology@45thdemocrats.org

@@ -1,0 +1,18 @@
+Greetings!
+
+Sorry, but your request to the %(listname)s@45thdemocrats.org mailing list
+
+%(request)s
+
+has been rejected by the list's Admins for the following reason:
+
+"%(reason)s"
+
+If you have any questions, please contact the Tech Committee at technology@45thdemocrats.org.
+
+______________________________________________________________________________________________
+This message brought to you by the 45th District Democrats of Washington State.
+    https://www.45thdemocrats.org/
+
+Need help? You can always message our Tech Committee here:
+    technology@45thdemocrats.org

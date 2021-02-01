@@ -1,0 +1,19 @@
+Greetings from the 45th District Democrats of Washington State!
+
+Your request to %(requestaddr)s:
+
+    %(cmd)s
+
+has been forwarded to the list's Admins (this is probably because you've asked to subscribe to an invite-only list).
+
+You will receive an email notification of the list's Admins' decision about your request.
+
+If you have any questions, please contact our Tech Committee at technology@45thdemocrats.org. Thanks!
+
+______________________________________________________________________________________________
+This message brought to you by the 45th District Democrats of Washington State.
+    https://www.45thdemocrats.org/
+
+Need help? You can always message our Tech Committee here:
+    technology@45thdemocrats.org
+

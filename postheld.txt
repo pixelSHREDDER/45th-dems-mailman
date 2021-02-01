@@ -1,0 +1,20 @@
+Greetings!
+
+Your message to the %(listname)s@45thdemocrats.org mailing list with the subject "%(subject)s" is being held until the list's Admins can review it for approval.
+
+The reason it is being held is:
+
+    %(reason)s
+
+If the message is approved, it will be sent out. Otherwise, you will receive an email notification of the list Admins' decision. If you would like to cancel posting this message, click the link below:
+
+    %(confirmurl)s
+
+If you have any questions, please contact our Tech Committee at technology@45thdemocrats.org. Thanks!
+
+______________________________________________________________________________________________
+This message brought to you by the 45th District Democrats of Washington State.
+    https://www.45thdemocrats.org/
+
+Need help? You can always message our Tech Committee here:
+    technology@45thdemocrats.org
